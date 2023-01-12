@@ -8,11 +8,11 @@
     padding: 0 25px;
     transition: 0.3s;
 }
-.logo a{
+.logo a , .logo-name{
     text-decoration: none;
     color: var(--white);
     font-weight: bolder;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
 }
 .nav{
     display: inline-flex;
@@ -92,7 +92,7 @@
     box-shadow: -20px 0 40px rgba(0,0,0,0.3);
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:1200px){
     .hamburger, .toggle-btn{
         display: block;
         margin: 0;
