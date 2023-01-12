@@ -209,10 +209,47 @@ h5{
 }
 .footer-nav ul{
     list-style: none;
+    margin-top: 20px;
 }
 footer .media{
     list-style: none;
+    
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    line-height: 30px;
+    color: var(--white);
+    transition: all 0.5s ease-in-out;
+    
+}
+.footer-nav ul li a:hover{
+    background-color: var(--lightorange);
+    width: 100px;
+    opacity:0.3;
+    border-radius: 10px;
+
+}
+.footer-nav ul li{
+   
+}
+.footer-nav ul li i{
+    line-height: 40px;
 }
 .media{
     display: flex;
+    margin-top: 20px;
+
+}
+.media li a i{
+    color: var(--white);
+    transition: all 0.5s ease-in-out;
+}
+.media li a i:hover{
+    transform: scale(1.08);
+}
+.attribute{
+    text-align: center;
+}
+.attribute p{
+    font-size: 1rem;
 }
