@@ -1,5 +1,62 @@
-@media screen and (max-width:1200px){
+@media screen and (min-width:600px){
+    h1{
+        color: var(--orange);
+        font-size: 45px; 
 
+    }
+    .btn{
+        margin-top: 50px;
+
+    }
+ 
+
+}
+@media screen and (min-width:1000px){
+    .subject-cards{
+        display: flex;
+    }
+    .methods{
+        display:flex;
+    }
+    .methods-text{
+        margin-top: 150px;
+    }
+    .objectives{
+        display:flex;
+    }
+    .objective-image{
+        padding:50px;
+        max-width:400px;
+        margin-top: 20px;
+    }
+    .case-text{
+        padding: 50px;
+    }
+    .service-info{
+        display:flex;
+        justify-content: space-around;
+    }
+    .service-info img{
+        width:400px;
+    }
+    .service-info ul {
+        list-style: none;
+        color: var(--orange);
+        margin-top: 70px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer-nav ul li {
+        list-style: none;
+    }
+    .footer-nav ul li a{
+        
+    }
+    .media-bar{
+        display: flex;
+    }
 }
 
 /*@media screen and (max-width:600px){
