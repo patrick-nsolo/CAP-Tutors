@@ -202,6 +202,7 @@ footer{
     background-color: var(--orange);
     padding: 35px;
     color: var(--white);
+    margin-top: 100px;
 }
 h5{
     font-size: 20px;
@@ -227,7 +228,6 @@ footer .media{
     width: 100px;
     opacity:0.3;
     border-radius: 10px;
-
 }
 .footer-nav ul li{
    
