@@ -39,5 +39,12 @@
     .objective-text{
         text-align: center;
     }
+    .case{
+        height: 700px;
+    }
+    .case p{
+        width: 900px;
+        margin-left: -205px; 
+    }
     
 }
