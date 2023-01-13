@@ -3,6 +3,25 @@
 }
 
 @media screen and (max-width:600px){
-    
+    .banner-text{
+        top:-280px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+        font-weight: 700px;
+    }
+    .banner-text h2{
+        font-size: 20px;
+    }
+    .about-text h2{
+        font-size: 30px;
+    }
+    .about-text h3{
+        font-size: 25px;
+    }
+    .about-text p{
+        width: 800px;
+        margin-left: -150px;   
+    }
     
 }
