@@ -101,6 +101,27 @@ body{
     transform: scale(1.08);
     cursor: pointer;
 }
+.methods{
+    margin-top: 50px;
+}
+.methods-text p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.methods img{
+    margin-top: 40px;
+    width: 450px;
+}
+.objectives{
+    margin-top: 50px;
+}
+.objective-image{
+    width: 400px;
+}
+.objective-text p{
+    margin-top: 50px;
+    line-height: 30px;
+}
    
 
 /*Front page/Front page text
