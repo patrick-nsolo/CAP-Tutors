@@ -23,5 +23,15 @@
         width: 800px;
         margin-left: -150px;   
     }
+    .subject-cards{
+        display: inline-block;
+        margin-left: 50px;
+    }
+    .cards{
+        margin-top: 30px;
+    }
+    .methods{
+        display: inline-block;
+    }
     
 }
