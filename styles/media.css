@@ -33,5 +33,11 @@
     .methods{
         display: inline-block;
     }
+    .objectives{
+        display: inline-block;
+    }
+    .objective-text{
+        text-align: center;
+    }
     
 }
