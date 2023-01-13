@@ -46,5 +46,21 @@
         width: 900px;
         margin-left: -205px; 
     }
+    .service-info{
+        display: inline-block;
+        margin-left: 40px;
+    }
+    .service-info img{
+        margin-top: 30px;
+    }
+    .service-info ul li{
+        width: 400px;
+    }
+    footer{
+        background-color: var(--orange);
+    }
+    .footer{
+        display: inline-block;
+    }
     
 }

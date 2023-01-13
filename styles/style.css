@@ -196,7 +196,7 @@ p{
     font-size: 25px;
     text-decoration: underline;
 }
-footer{
+.footer{
     display: flex;
     justify-content: space-around;
     background-color: var(--orange);
@@ -212,7 +212,7 @@ h5{
     list-style: none;
     margin-top: 20px;
 }
-footer .media{
+.footer .media{
     list-style: none;
     
 }
