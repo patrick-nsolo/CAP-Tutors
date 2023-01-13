@@ -137,9 +137,6 @@ body{
 .case-text p{
     line-height: 20px;
 }
-.case-text .inner-text{
-    
-}
 .services{
     margin-top: 50px;
 }
@@ -149,6 +146,29 @@ body{
 }
 .service-info img{
     padding: 40px;
+}
+.footer{
+    display: block;
+    justify-content: left;
+    background-color: var(--orange);
+    text-align: left;
+    color: var(--white);
+    margin-top: 50px;
+}
+.footer h5{
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+.footer ul li{
+    line-height: 40px;
+    padding: 0 30px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: var(--white);
+}
+.footer-nav{
+    margin-top: 30px;
 }
 /*Front page/Front page text
 .banner{
