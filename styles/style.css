@@ -31,7 +31,12 @@ h3{
 p{
     font-size: 20px;
 }
-/*Front page/Front page text*/
+body{
+    display: inline-block;
+    text-align: center;
+}
+
+/*Front page/Front page text
 .banner{
     display: flex;
     position: relative;
@@ -253,3 +258,4 @@ h5{
 .attribute p{
     font-size: 1rem;
 }
+*/

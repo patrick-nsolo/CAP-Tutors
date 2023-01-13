@@ -2,8 +2,8 @@
 
 }
 
-@media screen and (max-width:600px){
-    .body{
+/*@media screen and (max-width:600px){
+    body{
         position: absolute;
     }
     .banner-text{
@@ -66,4 +66,4 @@
         display: inline-block;
     }
     
-}
+}*/
