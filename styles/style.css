@@ -157,7 +157,7 @@ body{
 }
 .footer h5{
     font-size: 1.5rem;
-    margin-top: 0px;
+    margin-top: 30px;
 }
 .footer ul li{
     line-height: 40px;
@@ -169,6 +169,13 @@ body{
 }
 .footer-nav{
     margin-top: 30px;
+}
+.media{
+    display: flex;
+}
+.media li{
+    list-style: none;
+    margin-top: 20px;
 }
 /*Front page/Front page text
 .banner{
