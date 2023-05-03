@@ -87,7 +87,7 @@ header{
         top:70px;
         gap:0;
         flex-direction: column;
-        background-color: blueviolet;
+        background-color: var(--lightorange);
         width: 100%;
         text-align:center;
         transition: 0.5s;
