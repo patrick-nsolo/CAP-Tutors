@@ -133,6 +133,7 @@ p{
 }
 .objective-image{
     padding: 40px;
+    width:1000px;
 }
 .objective-text p{
     margin-top: 20px;
@@ -142,6 +143,10 @@ p{
     background: linear-gradient(45deg,var(--lightorange), var(--orange));
     height: 500px;
     margin-top: 80px;
+}
+.case-text{
+    align-items: center;
+    padding: 80px;
 }
 .case h3, .case p{
     color: var(--white);
@@ -163,5 +168,5 @@ p{
     padding: 40px;
 }
 .objective-image{
-    width:1000px;
+   
 }
