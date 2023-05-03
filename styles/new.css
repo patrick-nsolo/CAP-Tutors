@@ -54,3 +54,7 @@ header{
 .nav-item a:hover{
     color:var(--blue);
 }
+.hamburger{
+    display:none;
+    cursor: pointer;
+}
