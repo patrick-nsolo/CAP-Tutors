@@ -89,5 +89,13 @@ header{
         flex-direction: column;
         background-color: blueviolet;
         width: 100%;
+        text-align:center;
+        transition: 0.5s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .menu.active{
+        left:0;
     }
 }
