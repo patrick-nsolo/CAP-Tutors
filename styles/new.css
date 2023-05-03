@@ -87,3 +87,56 @@ img{
     transition: all 0.5s ease-in-out;
     margin-top: 30px;
 }
+.cards img{
+    border-radius: 10px 10px 0 0;
+}
+.cards:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.methods{
+    margin-top: 50px;
+}
+.methods-text p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.methods img{
+    margin-top: 40px;
+    padding: 1px;
+}
+.objective{
+    margin-top: 50px;
+}
+.objective-image{
+    padding: 40px;
+}
+.objective-text p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.case{
+    background: linear-gradient(45deg,var(--lightorange), var(--orange));
+    height: 500px;
+    margin-top: 80px;
+}
+.case h3, .case p{
+    color: var(--white);
+}
+.case-text h3{
+    padding-top: 40px;
+}
+.case-text p{
+    line-height: 20px;
+}
+.services{
+    margin-top: 50px;
+}
+
+.service-info ul li{
+    line-height: 30px;
+    color: var(--orange);
+}
+.service-info img{
+    padding: 40px;
+}
