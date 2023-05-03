@@ -176,6 +176,25 @@ p{
     padding: 40px;
     width:400px;
 }
-.objective-image{
-   
+.footer{
+    display:flex;
+    justify-content: space-around;
+    background-color: var(--orange);
+    color:var(--white);
+}
+.footer h5{
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.footer ul li{
+    line-height: 40px;
+    padding: 0 30px;
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: var(--white);
+}
+.media{
+    display:flex;
 }
