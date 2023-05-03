@@ -11,7 +11,7 @@
  
 
 }
-@media screen and (min-width:1000px){
+/*@media screen and (min-width:1000px){
     .subject-cards{
         display: flex;
     }
@@ -59,7 +59,7 @@
     }
 }
 
-/*@media screen and (max-width:600px){
+@media screen and (max-width:600px){
     body{
         position: absolute;
     }
