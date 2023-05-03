@@ -72,3 +72,18 @@ img{
     max-width: 1224px;
     margin: 0 auto;
 }
+.subject-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0 50px;
+}
+.cards{
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    width: 300px;
+    height: 350px;
+    background: var(--white);
+    border-radius: 10px 10px 10px 10px;
+    transition: all 0.5s ease-in-out;
+    margin-top: 30px;
+}
