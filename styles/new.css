@@ -19,7 +19,24 @@ img{
     max-inline-size: 100%;
     block-size: auto;
 }
-
+h1{
+    color: var(--orange);
+    font-size: 35px; 
+}
+h2{
+    color: var(--orange);
+    font-size: 30px; 
+    
+}
+h3{
+    color: var(--orange);
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    color:var(--orange);
+    padding: 20px;
+}
 
 
 .banner{
@@ -96,6 +113,10 @@ img{
 }
 .methods{
     margin-top: 50px;
+    display: flex;
+}
+.methods-text{
+    margin-top: 150px;
 }
 .methods-text p{
     margin-top: 20px;
