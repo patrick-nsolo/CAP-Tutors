@@ -23,7 +23,14 @@ img{
 
 
 .banner{
-    max-width: 1224px;
-    margin: 0 auto;
-    height:10%;  
+    display: flex;
+    justify-content: space-around;
+}
+.banner-image {
+    width:500px;
+}
+.banner-text{
+    margin-top: 200px;
+    text-align: left;
+    align-items: center;
 }
