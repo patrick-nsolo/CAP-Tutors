@@ -24,3 +24,14 @@ header{
 .menu li a{
     text-decoration: none;
 }
+.container{
+    max-width: 1224px;
+    width:90%;
+    margin: 0 auto;
+}
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
