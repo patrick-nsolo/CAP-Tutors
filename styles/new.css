@@ -55,3 +55,8 @@ p{
     border-radius:12px;
     margin-top:10px;
 }
+.btn a{
+    color:var(--white);
+    font-size:1rem;
+    text-decoration: none;
+}
