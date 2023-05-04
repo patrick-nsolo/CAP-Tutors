@@ -40,12 +40,13 @@ p{
     text-align: center;
 }
 .banner-text h1{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-top: -20px;
 }
 .banner-text h2{
     font-size: 1rem;
-    font-weight: lighter;   
+    font-weight:bold; 
+    color:#121212;  
 }
 .btn{
     width:100px;
@@ -59,4 +60,17 @@ p{
     color:var(--white);
     font-size:1rem;
     text-decoration: none;
+}
+.about-text{
+    text-align:center;
+    margin-top:50px;
+}
+.about-text h2{
+    font-size: 2rem;
+}
+.about-text h3{
+    font-size: 1.5rem;
+}
+.about-text p{
+    
 }
