@@ -32,16 +32,20 @@ p{
     color:var(--orange);
     padding: 20px;
 }
+.banner .banner-text .welcome{
+    font-size: 25px;
+    font-weight: bolder;
+}
 .banner-text{
     text-align: center;
 }
-.banner-text h1{
-    font-size: 1.7rem;
+.banner-tet h1{
+    font-size: 40px;
     margin-top: -20px;
 }
 .banner-text h2{
-    font-size: 1rem;
-    font-weight:bold; 
+    font-size: 1.1rem;
+    font-weight:normal; 
     color:#121212;  
 }
 .btn{
