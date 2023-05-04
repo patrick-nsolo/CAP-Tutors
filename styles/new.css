@@ -122,7 +122,8 @@ p{
 }
 .case{
     background: linear-gradient(45deg,var(--lightorange), var(--orange));
-    height: 600px;
+    height: 550px;
+    padding:20px;
 }
 .case h3, .case p{
     color: var(--white);
@@ -130,4 +131,6 @@ p{
 }
 .case p{
     font-size: 1rem;
+    line-height: 25px;
+    padding:10px 20px;
 }
