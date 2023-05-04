@@ -49,3 +49,20 @@
         justify-content: space-evenly;
     }
 }
+
+@media(min-width:680px) and (max-width:1024px){
+    .subject-cards{
+        display:inline-block;
+        justify-content:center;
+        margin: 0 auto;
+    }
+    .footer{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .case{
+        height: 400px;
+        padding:50px 100px;
+    }
+
+}
