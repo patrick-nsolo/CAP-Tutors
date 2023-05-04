@@ -151,3 +151,24 @@ p{
 .service-image{
     margin-top: 30px;
 }
+footer{
+    padding: 20px; 
+}
+.footer{
+    background: linear-gradient(45deg,var(--lightorange), var(--orange));
+}
+.footer h5{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: var(--white);
+    
+}
+.footer-nav li{
+    line-height: 30px;
+    padding: 0 30px;
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: var(--white);
+}
