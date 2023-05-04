@@ -78,3 +78,7 @@ p{
     padding:30px 60px;
 
 }
+.subject-cards{
+    display:inline-block;
+    padding: 0 50px;
+}
