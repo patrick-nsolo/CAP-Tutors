@@ -148,3 +148,6 @@ p{
 .service-info ul{
     list-style: none;
 }
+.service-image{
+    margin-top: 30px;
+}
