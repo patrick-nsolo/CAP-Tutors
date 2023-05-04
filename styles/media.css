@@ -64,5 +64,10 @@
         height: 400px;
         padding:50px 100px;
     }
+    .subject-cards{
+        position: relative;
+        top:50%;
+        left: 30%;
+    }
 
 }
