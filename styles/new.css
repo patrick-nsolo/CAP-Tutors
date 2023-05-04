@@ -152,10 +152,11 @@ p{
     margin-top: 30px;
 }
 footer{
-    padding: 20px; 
+    padding: 5px; 
 }
 .footer{
     background: linear-gradient(45deg,var(--lightorange), var(--orange));
+    padding: 20px;
 }
 .footer h5{
     font-size: 1.5rem;
