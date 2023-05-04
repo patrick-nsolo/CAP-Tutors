@@ -1,3 +1,22 @@
-@media(max-width:1024px){
-    
+@media(min-width:1024px){
+    .banner{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-image img{
+        width:500px;
+    }
+    .banner .banner-text{
+        margin-top: 150px;
+        text-align: left;
+    }
+    .banner .banner-text .welcome{
+        font-size: 3rem;
+    }
+    .banner-text h2{
+        font-size: 1.5rem;    
+    }
+    .subject-cards{
+        display:flex;
+    }
 }
