@@ -23,5 +23,29 @@
     }
     .objectives{
         display:flex;
+        justify-content: space-around;
+    }
+    .objective-image{
+        width:700px;
+    }
+    .objective-text{
+        width:1000px;
+        padding: 10px 50px;
+    }
+    .objective, .case-text h3{
+        text-align: center;
+    }
+    .case{
+        height: 300px;
+        padding:50px 100px;
+    }
+    .service-info{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer{
+        display:flex;
+        justify-content: space-evenly;
     }
 }
