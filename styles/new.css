@@ -162,14 +162,27 @@ footer{
     font-size: 1.5rem;
     margin-top: 30px;
     color: var(--white);
-    
+}
+.footer-nav ul{
+    margin-top: 20px;
 }
 .footer-nav li{
     line-height: 30px;
     padding: 0 30px;
     list-style: none;
+    color: var(--white);
+}
+.bx {
+    color:var(--white);
+    line-height: 30px;
 }
 .footer ul li a{
     text-decoration: none;
     color: var(--white);
+}
+.media{
+    list-style: none;
+}
+.media .bx{
+    font-size: 0.05rem;
 }
