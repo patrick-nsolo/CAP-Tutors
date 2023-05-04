@@ -67,7 +67,7 @@ p{
 .about-text h3{
     font-size: 1.5rem;
 }
-.about-text p{
+.about-text p,.methods-text p{
     color: #121212;
     font-size: 1rem;
     line-height: 25px;
