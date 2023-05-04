@@ -213,6 +213,5 @@ span{
     transition: all 0.5s ease-in-out;
 }
 .aurora:hover{
-    text-decoration: none;
-    color:var(--orange)
+    cursor: pointer;
 }
