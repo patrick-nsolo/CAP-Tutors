@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="/styles/media.css">
   <link rel="stylesheet" type="text/css" href="/styles/nav.css">
   <link rel="stylesheet" type="text/css" href="/styles/reset.css">
+  
   <link rel="stylesheet" href="/boxicons-2.1.4/css/boxicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,26 +20,29 @@
 
 </head>
 <body>
-    <header class="nav-wrapper">
-        <div class="logo">
-            <a href="#"><h2 class="logo-name">CAP Tutors</h2></a>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo-name">CAP Tutors</a>
+                <ul class="menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link" >About</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>        
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
         </div>
-        <nav class="nav">
-            <input type="checkbox" class="toggle-btn">
-            <span class="hamburger"></span>
-            <ul class="menu">
-                <li><a href="testindex.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>        
-            </ul>  
-        </nav>
     </header>
     <!--HERO SLIDE-->
     <section class="banner">
         <div class="banner-image">
-            <img src="/images/learning-is-fun.webp" />
+            <img src="/images/hero-image.webp" />
         </div>
         <div class="banner-text">
             <h1>Welcome to CAP Tutors</h1>
@@ -46,23 +50,24 @@
             <button class="btn explore-btn"><a href="#about" >Explore</a></button>
         </div>
     </section>
+    <hr class="line">
     <section id="about">
         <div class="about">
             <div class="about-text">
                 <h2>About Us</h2>
                 <h3>Who we are</h3>
-                <p>CAP Tutors is a subsidiary of CAP GREENER APPLE SERVICES LIMITED. It is an online and Center tuition education service. 
-                CAP Tutors was incorporated to bridge the gap for quality supplementary education for all students from key stage 1 to A-level.
+                <p><b>CAP Tutors</b> is a subsidiary of <b>CAP GREENER APPLE SERVICES LIMITED</b>. It is an online and Center tuition education service. 
+                CAP Tutors was incorporated to bridge the gap for quality supplementary education for all students from key <b>stage 1 to A-level</b>.
                 <br>We provide services on the following subjects.</p>
             </div>
-            <div class="subject-cards">
+            <div id="courses" class="subject-cards">
+                <h2>Our Courses</h2>
                 <div class="math_card cards">
                     <div class="orange_line"></div>
                     <div class="inner_content">
                         <img src="images/Mathematics.webp" class="subject-image"/>
                         <div class="subject">
-                            <h4>Mathematics<br>and <br> A Level Statistics</h4>
-                            
+                            <h4>Mathematics<br>and <br> A Level Statistics</h4>   
                         </div>
                     </div>
                 </div>
@@ -71,8 +76,7 @@
                     <div class="inner_content">
                         <img src="images/english.webp" class="subject-image"/>
                         <div class="subject">
-                            <h4>English <br>(Language and Literature)</h4>
-                            
+                            <h4>English <br>(Language and Literature)</h4>    
                         </div>
                     </div>
                 </div>
@@ -81,12 +85,12 @@
                     <div class="inner_content">
                         <img src="images/science.webp" class="subject-image"/>
                         <div class="subject">
-                            <h4>Sciences <br>(Biology, Chemistry, Physics)</h4>
-                            
+                            <h4>Sciences <br>(Biology, Chemistry, Physics)</h4>    
                         </div>    
                     </div>
                 </div>
             </div>
+            <hr class="line">
             <div class="methods">
                 <div class="methods-text">
                     <h3 class="method">Our Methods</h3>
@@ -96,6 +100,7 @@
                     <img class="method-image" src="/images/SAT-students-brush.webp">
                 </div>   
             </div>
+            <hr class="line">
             <div class="objectives">
                 <div>
                     <img class="objective-image" src="/images/student-and-teacher.webp">
@@ -110,7 +115,7 @@
             <div class="case">
                 <div class="case-text">
                     <h3>What we do</h3>
-                    <p>CAP Tutors tailor tuition services according to the education needs of each tutee. We provide personalised private tuition
+                    <p><b>CAP Tutors</b> tailor tuition services according to the education needs of each tutee. We provide personalised private tuition
                     for homework and examinations for students. Our primary objective is to improve educational standards as well as the students 
                     to pursue academic excellence. </p>
                     <p class="inner-text">Our tailored lessons are for bridging gaps in student knowledge as well as motivating them to pursue academic excellence. 
@@ -133,7 +138,7 @@
                 </ul>
             </div>
             <div>
-                <img src="/images/online-education.jpg"/>
+                <img class="service-image" src="/images/online-education.webp"/>
             </div>
         </div> 
     </section> 
@@ -166,20 +171,38 @@
                 <h5>Social Media</h5>
                 <div class="media-bar">
                     <ul class="media">
-                        <li><a href="#" target="blank"><i class="bx bxl-instagram bx-lg"></i></a></li>
-                        <li><a href="#" target="blank"><i class="bx bxl-facebook bx-lg"></i></a></li>
-                        <li><a href="#" target="blank"><i class="bx bxl-twitter bx-lg"></i></a></li>
-                        <li><a href="https://wa.me/+447488319474" target="blank"><i class="bx bxl-whatsapp bx-lg"></i></a></li>
+                        <li>
+                            <a href="#" target="blank">
+                                <i class="bx bxl-instagram bx-md"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="blank">
+                                <i class="bx bxl-facebook bx-md"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="blank">
+                                <i class="bx bxl-twitter bx-md"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/+447488319474" target="blank">
+                                <i class="bx bxl-whatsapp bx-md"></i>
+                                <span>Whatsapp</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
-
-        </div>
-        
+        </div>    
     </footer> 
     <attribute class="attribute">
         <p>CAP Tutors 2023 | Powered by Aurora Digital Solutions</p>
-    </attribute>     
+    </attribute>
     <script src="app.js"></script>
 </body>
 </html>
