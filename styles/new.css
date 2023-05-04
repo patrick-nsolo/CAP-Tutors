@@ -143,8 +143,8 @@ p{
 }
 .services h3, .service-info{
     text-align: center;
+    line-height: 25px;
 }
 .service-info ul{
     list-style: none;
-    line-height: 20px;
 }
