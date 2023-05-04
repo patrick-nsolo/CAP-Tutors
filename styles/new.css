@@ -23,13 +23,9 @@ h1{
     color: var(--orange);
     font-size: 35px; 
 }
-h2{
+h2,h3{
     color: var(--orange);
     font-size: 30px;     
-}
-h3{
-    color: var(--orange);
-    font-size: 30px;
 }
 p{
     font-size: 20px;
@@ -76,9 +72,12 @@ p{
     font-size: 1rem;
     line-height: 25px;
     padding:30px 60px;
-
 }
 .subject-cards{
     display:inline-block;
     padding: 0 50px;
+}
+.subject{
+    text-align: center;
+    font-size: 20px;
 }
