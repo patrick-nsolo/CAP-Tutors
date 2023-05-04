@@ -126,4 +126,8 @@ p{
 }
 .case h3, .case p{
     color: var(--white);
+    
+}
+.case p{
+    font-size: 1rem;
 }
