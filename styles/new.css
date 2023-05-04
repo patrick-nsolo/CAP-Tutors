@@ -94,3 +94,10 @@ p{
     transition: all 0.5s ease-in-out;
     margin-top: 50px;
 }
+.cards:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.methods{
+    text-align: center;
+}
