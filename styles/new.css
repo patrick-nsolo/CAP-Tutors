@@ -77,10 +77,13 @@ p{
     display:inline-block;
     padding: 30px;
     margin-left: 10px;
+    margin-top: 0;
 }
 .subject{
     text-align: center;
     font-size: 20px;
+    padding: 25px;
+    color: var(--orange);
 }
 .cards{
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
