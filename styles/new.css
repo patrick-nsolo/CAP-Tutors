@@ -179,6 +179,10 @@ footer{
 .footer ul li a{
     text-decoration: none;
     color: var(--white);
+    transition: all 0.5s ease-in-out;
+}
+.footer ul li a:hover{
+    color:var(--blue);
 }
 .media{
     list-style: none;
@@ -186,9 +190,14 @@ footer{
 }
 .media a{
     display: flex;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.media a:hover{
+    color: var(--blue);
 }
 span{
-    margin-top: 5px;
+    margin-top: 7px;
 }
 .media .bx{
     font-size: 0.05rem;
